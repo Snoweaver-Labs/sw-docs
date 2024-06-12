@@ -1,0 +1,15 @@
+
+Quickstart
+==============================
+
+Examples of building different kind of jobs with Snoeaver
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+.. toctree::
+    :titlesonly:
+    :glob:
+
+    *
