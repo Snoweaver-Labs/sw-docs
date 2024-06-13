@@ -21,7 +21,7 @@
     
   <link rel="index" title="Index" href="genindex.html" />
   <link rel="search" title="Search" href="search.html" />
-  <link rel="next" title="Tutorial: Create a simple web request GET job" href="quickstart/1_quickstart_web_get.html" /> 
+  <link rel="next" title="Get Started" href="tutorials/get_started.html" /> 
   </head>
 
   <body>
@@ -29,7 +29,7 @@
     <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
   <router-link to="#" class="home-link">
     
-      <span class="site-name">Snoweaver</span>
+      <img class="logo" src="_static/logo.jpg" alt="logo"/>
     
   </router-link>
 
@@ -38,9 +38,16 @@
 
   
     <div class="nav-item">
-      <a href="#web-request-job"
+      <a href="tutorials/get_started.html#get-started"
          class="nav-link ">
-         web request job
+         get started
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="#web-request-jobs"
+         class="nav-link ">
+         web request jobs
       </a>
     </div>
   
@@ -60,6 +67,22 @@
   
 
 
+
+  
+    <div class="nav-item">
+      <a href="https://github.com/username/repo"
+        class="nav-link external">
+          Github <outboundlink></outboundlink>
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="https://bla.com"
+        class="nav-link external">
+          Other <outboundlink></outboundlink>
+      </a>
+    </div>
+  
 
     </navlinks>
   </div>
@@ -75,9 +98,16 @@
 
   
     <div class="nav-item">
-      <a href="#web-request-job"
+      <a href="tutorials/get_started.html#get-started"
          class="nav-link ">
-         web request job
+         get started
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="#web-request-jobs"
+         class="nav-link ">
+         web request jobs
       </a>
     </div>
   
@@ -97,6 +127,22 @@
   
 
 
+
+  
+    <div class="nav-item">
+      <a href="https://github.com/username/repo"
+        class="nav-link external">
+          Github <outboundlink></outboundlink>
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="https://bla.com"
+        class="nav-link external">
+          Other <outboundlink></outboundlink>
+      </a>
+    </div>
+  
 
             
           </navlinks><div id="searchbox" class="searchbox" role="search">
@@ -114,13 +160,31 @@
   
     <div class="sidebar-group">
       <p class="caption">
-        <span class="caption-text"><a href="#web-request-job">web request job</a></span>
+        <span class="caption-text"><a href="tutorials/get_started.html#get-started">get started</a></span>
       </p>
       <ul class="">
         
           <li class="toctree-l1 ">
             
-              <a href="quickstart/1_quickstart_web_get.html" class="reference internal ">Tutorial: Create a simple web request GET job</a>
+              <a href="tutorials/administration.html" class="reference internal ">Administration</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="#web-request-jobs">web request jobs</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="tutorials/create_web_get.html" class="reference internal ">Tutorial: Create a simple web request GET job</a>
             
 
             
@@ -129,7 +193,7 @@
         
           <li class="toctree-l1 ">
             
-              <a href="quickstart/2_quickstart_web_post.html" class="reference internal ">Tutorial: Create a simple web request POST job</a>
+              <a href="tutorials/create_web_post.html" class="reference internal ">Tutorial: Create a simple web request POST job</a>
             
 
             
@@ -201,7 +265,7 @@
         
           <li class="toctree-l1 ">
             
-              <a href="project/1_jobs.html" class="reference internal ">Jobs</a>
+              <a href="project/10_jobs.html" class="reference internal ">Jobs</a>
             
 
             
@@ -210,7 +274,7 @@
         
           <li class="toctree-l1 ">
             
-              <a href="project/2_macro_libs.html" class="reference internal ">Macro Libraries</a>
+              <a href="project/20_macro_libs.html" class="reference internal ">Macro Libraries</a>
             
 
             
@@ -219,7 +283,7 @@
         
           <li class="toctree-l1 ">
             
-              <a href="project/3_functions.html" class="reference internal ">Functions</a>
+              <a href="project/30_functions.html" class="reference internal ">Functions</a>
             
 
             
@@ -228,7 +292,16 @@
         
           <li class="toctree-l1 ">
             
-              <a href="project/4_import_export.html" class="reference internal ">Import and Export Project Resources</a>
+              <a href="project/40_stages.html" class="reference internal ">Stages</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="project/50_import_export.html" class="reference internal ">Import and Export Project Resources</a>
             
 
             
@@ -247,14 +320,14 @@
   <ul class="breadcrumbs">
     <li><a href="#">Docs</a> &raquo;</li>
     
-    <li> Snoweaver Documentation</li>
+    <li>Snoweaver Documentation</li>
   </ul>
   
 
   <ul class="page-nav">
   <li class="next">
-    <a href="quickstart/1_quickstart_web_get.html"
-       title="next chapter">Tutorial: Create a simple web request GET job →</a>
+    <a href="tutorials/get_started.html"
+       title="next chapter">Get Started →</a>
   </li>
 </ul>
   
@@ -262,24 +335,36 @@
 <hr>
           <div class="content" role="main" v-pre>
             
-  <section id="logo-snoweaver-documentation">
-<h1><a class="reference internal" href="_images/logo.jpg"><img alt="logo" src="_images/logo.jpg" style="height: 45px;" /></a> Snoweaver Documentation<a class="headerlink" href="#logo-snoweaver-documentation" title="Link to this heading">¶</a></h1>
-<section id="get-started">
-<h2>Get Started<a class="headerlink" href="#get-started" title="Link to this heading">¶</a></h2>
-<section id="web-request-job">
-<h3>Web Request Job<a class="headerlink" href="#web-request-job" title="Link to this heading">¶</a></h3>
+  <section id="snoweaver-documentation">
+<h1>Snoweaver Documentation<a class="headerlink" href="#snoweaver-documentation" title="Link to this heading">¶</a></h1>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="quickstart/1_quickstart_web_get.html">Tutorial: Create a simple web request GET job</a></li>
-<li class="toctree-l1"><a class="reference internal" href="quickstart/2_quickstart_web_post.html">Tutorial: Create a simple web request POST job</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials/get_started.html">Get Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tutorials/administration.html">Administration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="tutorials/create_project.html">Tutorial: Create and configure a new project</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </div>
-</section>
-</section>
+<section id="web-request-jobs">
+<h2>Web Request Jobs<a class="headerlink" href="#web-request-jobs" title="Link to this heading">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="tutorials/create_web_get.html">Tutorial: Create a simple web request GET job</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials/create_web_post.html">Tutorial: Create a simple web request POST job</a></li>
+</ul>
+</div>
 <section id="user-guide">
-<h2>User Guide<a class="headerlink" href="#user-guide" title="Link to this heading">¶</a></h2>
+<h3>User Guide<a class="headerlink" href="#user-guide" title="Link to this heading">¶</a></h3>
+</section>
+</section>
+<section id="user-interface">
+<h2>User Interface<a class="headerlink" href="#user-interface" title="Link to this heading">¶</a></h2>
+</section>
 <section id="gloabl-resources">
-<h3>Gloabl Resources<a class="headerlink" href="#gloabl-resources" title="Link to this heading">¶</a></h3>
+<h2>Gloabl Resources<a class="headerlink" href="#gloabl-resources" title="Link to this heading">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="global/1_projects.html">Projects</a></li>
@@ -291,28 +376,28 @@
 </div>
 </section>
 <section id="proeject-resources">
-<h3>Proeject Resources<a class="headerlink" href="#proeject-resources" title="Link to this heading">¶</a></h3>
+<h2>Proeject Resources<a class="headerlink" href="#proeject-resources" title="Link to this heading">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="project/1_jobs.html">Jobs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="project/2_macro_libs.html">Macro Libraries</a></li>
-<li class="toctree-l1"><a class="reference internal" href="project/3_functions.html">Functions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="project/4_import_export.html">Import and Export Project Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="project/10_jobs.html">Jobs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="project/20_macro_libs.html">Macro Libraries</a></li>
+<li class="toctree-l1"><a class="reference internal" href="project/30_functions.html">Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="project/40_stages.html">Stages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="project/50_import_export.html">Import and Export Project Resources</a></li>
 </ul>
 </div>
 </section>
 <section id="devops">
-<h3>DevOps<a class="headerlink" href="#devops" title="Link to this heading">¶</a></h3>
+<h2>DevOps<a class="headerlink" href="#devops" title="Link to this heading">¶</a></h2>
 </section>
 <section id="scheduling-and-orchestration">
-<h3>Scheduling and Orchestration<a class="headerlink" href="#scheduling-and-orchestration" title="Link to this heading">¶</a></h3>
+<h2>Scheduling and Orchestration<a class="headerlink" href="#scheduling-and-orchestration" title="Link to this heading">¶</a></h2>
 </section>
 <section id="quickstart">
-<h3>Quickstart<a class="headerlink" href="#quickstart" title="Link to this heading">¶</a></h3>
-</section>
-</section>
+<h2>Quickstart<a class="headerlink" href="#quickstart" title="Link to this heading">¶</a></h2>
 <section id="useful-links">
-<h2>Useful Links<a class="headerlink" href="#useful-links" title="Link to this heading">¶</a></h2>
+<h3>Useful Links<a class="headerlink" href="#useful-links" title="Link to this heading">¶</a></h3>
+</section>
 </section>
 </section>
 
@@ -321,8 +406,8 @@
           <div class="page-nav">
             <div class="inner"><ul class="page-nav">
   <li class="next">
-    <a href="quickstart/1_quickstart_web_get.html"
-       title="next chapter">Tutorial: Create a simple web request GET job →</a>
+    <a href="tutorials/get_started.html"
+       title="next chapter">Get Started →</a>
   </li>
 </ul><div class="footer" role="contentinfo">
       &#169; Copyright 2024, Snoweaver Solutions.

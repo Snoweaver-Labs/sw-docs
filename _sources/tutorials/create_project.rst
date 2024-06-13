@@ -1,0 +1,48 @@
+.. _quickstart_web_get:
+
+============================================
+Tutorial: Create and configure a new project
+============================================
+
+This tutorial illustrates how to create and configure a new project.  An XS warehouse should be adequate to perform the tasks of this tutorial.
+
+Create a new proeject
+*********************
+
+#. Open the Admin console via the top menu after launching Snoweaver.
+
+#. Open the Projects page via the side bar.
+
+.. image:: /_static/img/tutorials/create_project_1.png
+   :width: 90%
+
+3. Create a new project called **DEV_LEARN** by updating the Name field and click **Save**.
+
+#. A confirmation message is displayed if the new project is created successfully.
+
+.. image:: /_static/img/tutorials/create_project_2.png
+   :width: 70%
+
+5. Press **F5** or **Ctrl+R** to reload your browser, and the new project shall appear on the top menu.
+
+#. Open the new project to verify.
+
+.. image:: /_static/img/tutorials/create_project_3.png
+   :width: 90%
+
+7. Switch back to the Admin console for the next task
+
+Create a new OAuth integration
+******************************
+
+Create a new OAuth secret
+*************************
+
+Create a new network rule
+*************************
+
+Create a external integration
+*****************************
+
+Add the new secret and integraiton to the project
+*************************************************
