@@ -1,0 +1,23 @@
+=========
+Resources
+=========
+
+
+Global Resources
+================
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   global/*
+
+
+Project Resources
+=================
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   project/*
